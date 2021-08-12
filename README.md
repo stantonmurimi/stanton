@@ -31,7 +31,7 @@ printf("Area is : %d\n",area);
 return 0;
 }
 
-Data types
+# Data types
 #include <stdio.h>
 int main() 
 {
@@ -47,7 +47,7 @@ return 0;
 }
 
 
-Constants in c
+# Constants in c
 #include <stdio.h>
 int main() 
 {
