@@ -151,3 +151,30 @@ static int count = 5;   	/* global variable */
   
    return 0; 
 }
+
+# loops in c
+#include <stdio.h> 
+
+  int main () 
+{ 
+   /* local variable definition */    int i, j; 
+    
+   for(i=2; i<100; i++) {       for(j=2; j <= (i/j); j++) 
+        if(!(i%j)) break;   	// if factor found, not prime       if(j > (i/j)) printf("%d is prime\n", i); 
+   } 
+  
+   return 0; 
+}
+
+Do while
+#include <stdio.h> 
+  int main () 
+{ 
+   /* local variable definition */    int a = 10; 
+ 
+   /* do loop execution */    do    { 
+       printf("value of a: %d\n", a);        a = a + 1; 
+   }while( a < 20 ); 
+  
+   return 0; 
+} 
