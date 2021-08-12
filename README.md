@@ -18,3 +18,15 @@ printf("Student Course is: %s", student.stu_course);
  printf("\nStudent Yearofstudy is: %d", student.stu_yearofstudy);
  return 0;
 }
+
+
+# syntax in c example
+#include <stdio.h>
+int main () 
+{
+int length, width, area;
+length=100;width=14;
+area= length * width;
+printf("Area is : %d\n",area);
+return 0;
+}
