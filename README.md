@@ -45,3 +45,19 @@ printf("Float datatype : %f\n",c);
 printf("Double Float datatype : %lf\n",d);
 return 0;
 }
+
+
+Constants in c
+#include <stdio.h>
+int main() 
+{
+const int HEIGHT = 10;
+ const int BASE = 5; 
+const char NEWLINE = '\n';
+ int area;  
+ area = (HEIGHT * BASE)/2; 
+printf("value of area : %d", area); 
+printf("%c", NEWLINE);
+ return 0;
+}
+
